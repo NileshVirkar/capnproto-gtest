@@ -1,4 +1,0 @@
-/home/hemant/test-src/capnproto-c++-0.5.3.1/build/src/gtest_build-prefix/src/gtest_build-build/CMakeFiles/rebuild_cache.dir
-/home/hemant/test-src/capnproto-c++-0.5.3.1/build/src/gtest_build-prefix/src/gtest_build-build/CMakeFiles/edit_cache.dir
-/home/hemant/test-src/capnproto-c++-0.5.3.1/build/src/gtest_build-prefix/src/gtest_build-build/CMakeFiles/gtest_main.dir
-/home/hemant/test-src/capnproto-c++-0.5.3.1/build/src/gtest_build-prefix/src/gtest_build-build/CMakeFiles/gtest.dir
