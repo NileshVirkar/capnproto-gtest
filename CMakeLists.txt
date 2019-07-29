@@ -59,7 +59,7 @@ if(CAPNP_LITE)
 else()
   set(CAPNP_LITE_FLAG)
 endif()
-
+set( CMAKE_CXX_FLAGS "-fprofile-arcs -ftest-coverage" )
 if(MSVC)
   # TODO(cleanup): Enable higher warning level in MSVC, but make sure to test
   #   build with that warning level and clean out false positives.
