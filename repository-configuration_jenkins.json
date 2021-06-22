@@ -1,0 +1,66 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "userName": "",
+        "password": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "%WORKSPACE%/temp",
+            "repository": {
+                "uid": "033b3489911afd0ec618b40e4bd2b5cd",
+                "projectName": "githubdemo_jenkins",
+                "languages": [
+                    "CPP"
+                ],
+                "sources": {
+                    "baseDir": "%WORKSPACE%",
+                    "exclusions": []
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "gamma_cxx",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "unittest": [
+                    {
+                        "name": "gtest",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "%WORKSPACE%/output",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
