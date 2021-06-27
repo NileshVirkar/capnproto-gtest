@@ -50,6 +50,23 @@
                         }
                     }
                 ],
+                "coverage": [
+                    {
+                        "name": "gcov",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "%WORKSPACE%/output/gcov",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
                 "relevance": [
                     {
                         "name": "relevance",
